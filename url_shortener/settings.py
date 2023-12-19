@@ -108,3 +108,7 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Constants
+MAX_LENGTH_SHORT_URL = 10
+MAX_LENGTH_LONG_URL = 2000
