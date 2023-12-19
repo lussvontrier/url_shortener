@@ -17,3 +17,6 @@ class Url(models.Model):
 
     def __str__(self):
         return f'{self.short_url} was clicked {self.count_clicks} times.'
+
+    def exists_short_url(self):
+        return Url.objects.filter(short_url=self.short_url).exists()

@@ -112,3 +112,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Constants
 MAX_LENGTH_SHORT_URL = 10
 MAX_LENGTH_LONG_URL = 2000
+BASE_URL = 'http://localhost:8000/'
